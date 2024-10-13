@@ -7,6 +7,7 @@ import {
 import Home from "./pages/home/Home";
 import Blog from "./pages/blog/Blog";
 import AllBlogs from "./pages/allBlogs/AllBlogs";
+import Com from "./pages/Catagory/com";
 import NoPage from "./pages/nopage/NoPage";
 import BlogInfo from "./pages/blogInfo/BlogInfo";
 import AdminLogin from "./pages/admin/adminLogin/AdminLogin";
@@ -25,6 +26,7 @@ function App() {
           <Route path="/allblogs" element={<AllBlogs />} />
           <Route path="/bloginfo/:id" element={<BlogInfo />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
+          <Route path="/com" element={<Com />} />
           <Route
             path="/dashboard"
             element={
